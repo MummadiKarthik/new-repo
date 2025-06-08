@@ -1,1 +1,43 @@
-hello bro
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #202124;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+#display {
+  font-size: 3em;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:nth-child(1) {
+  background-color: #4CAF50;
+}
+
+button:nth-child(2) {
+  background-color: #f44336;
+}
+
+button:nth-child(3) {
+  background-color: #2196F3;
+}
