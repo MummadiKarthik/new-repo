@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const quizData = [
   {
     question: "What is the capital of France?",
@@ -90,3 +91,12 @@ submitBtn.addEventListener('click', () => {
     }
   }
 });
+=======
+  const express=require('express')
+  const app=express();
+  const PORT=3000;
+  app.use(express.json())
+  app.listen(PORT,()=>{
+    console.log(`Server running at http://localhost:${PORT}`)
+  })
+>>>>>>> 4b0de927761f844c76424980e64ec651a17dd0ad
